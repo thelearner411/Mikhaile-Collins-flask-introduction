@@ -6,5 +6,10 @@
 
 {% block body %}
     <h1>UPDATE</h1>
-    <p>body</p>
+    <p>Update existing task</p>
+
+    <form method="POST">
+        <input type="text" name="updated-content" id="updated-content" placeholder="Update task" required>
+        <input type="submit" value="Update task">
+    </form>
 {% endblock %}
